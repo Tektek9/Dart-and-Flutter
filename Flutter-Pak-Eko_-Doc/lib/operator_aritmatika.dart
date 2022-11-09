@@ -1,8 +1,8 @@
 import 'dart:ui';
 
 void main() {
-  var first = 10;
-  var second = 3;
+  var first = -5;
+  var second = -3;
 
   print(first + second); //penambahan
   print(first - second); //pengurangan
