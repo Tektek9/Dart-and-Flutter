@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:fugi/login_view.dart';
+import 'package:fugi/login_view_center.dart';
+import 'package:fugi/login_view_row.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const LoginViewRow(),
     );
   }
 }

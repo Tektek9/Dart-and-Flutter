@@ -28,9 +28,13 @@ void main(){
 
   print(Person.name);
   //melakukan print pada variabel name di dalam class Person
+
+
+
 }
 
 class Person{
   static const name = 'Yoku';
   //const sangat dibutuhkan oleh widget karena value sudah disediakan
 }
+

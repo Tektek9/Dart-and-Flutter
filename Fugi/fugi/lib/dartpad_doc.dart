@@ -1,5 +1,5 @@
 void main(){
-   String nama; //deklarasi variabel
+  String nama; //deklarasi variabel
   nama = "andrea"; //inisialisasi
   print(nama);
   
