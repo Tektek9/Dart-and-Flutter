@@ -214,9 +214,9 @@ class _slide1State extends State<slide1> with SingleTickerProviderStateMixin {
             shrinkWrap: true,
             itemBuilder: (context, index) => Container(
               decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.zero)
+                borderRadius: BorderRadius.all(Radius.zero),
+                color: Colors.blueAccent,
               ),
-              color: Colors.cyan,
               child: const Center(
                 child: Text("Grid View"),
               ),
